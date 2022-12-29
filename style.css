@@ -1,0 +1,235 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:black;
+    
+}
+
+main{
+   width: 1170px;
+   margin: 0 auto;
+}
+
+.header,footer{
+    background-color: #472d47;
+    color: white;
+    padding: 16px;
+}
+
+/* header*/
+
+.header-info{
+   display: flex;
+   flex-direction: row;
+    width: 1170px;
+    margin: 0 auto;
+}  
+
+.header-persone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+
+}
+
+.header-img{
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    padding: 16px;
+}
+
+/* objective*/
+
+.objective{
+    margin: 50px 0;
+}
+
+.objective-title{
+    font-style: normal;
+    margin: 0 0 20px;
+}
+
+.objective-text{
+    margin: 20px 0;
+}
+
+/* experience*/
+
+.experience{
+    margin: 50px 0;
+}
+
+.experience-title{
+    font-style: normal;
+    margin: 0 0 20px;
+}
+
+.experiance-blok{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.experiance-info{
+    padding-left: 100px;
+}
+
+.experience-time{
+    width: 150px;
+    margin: 0 0 20px; 
+}
+
+.experience-work{
+    margin: 0 0 20px;
+}
+
+.experience-text{
+    padding: 0 0 20px;
+}
+
+/* skills*/
+
+.skills-text{
+    margin: 0 0 50px;
+}
+
+.skills-title{
+    font-style: normal;
+    margin: 0 0 20px;
+}
+
+/* language*/
+
+.language-title{
+    font-style: normal;
+    margin: 0 0 20px;
+}
+
+.language-list{
+    list-style: none;
+    margin: 0 0 50px;
+}
+
+li:before{
+    content:"▘";
+    color: #f2ded3;
+}
+
+/* form*/
+
+.form{
+    background-color:#f2ded3;
+    padding: 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.form-name{
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.form-field_name{
+    align-items: flex-start;
+}
+
+.form-wrap{
+    padding: 20px 0;
+}
+
+.form-title{
+    display:flex;
+    justify-content: center;
+    padding: 0 0 20px;
+}
+
+
+.form-title-required{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.textarea{
+    background-color:#f2ded3;
+    border-style: none;
+    background: none;
+    border-bottom: solid 2px #472d47;
+    width: 400px;
+
+}
+.form-field-massage{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 20px;
+    
+}
+
+input,textarea {outline:none;}
+
+.form-field{
+    border-style: none;
+    background: none;
+    border-bottom: solid 2px #472d47;
+    margin: 0 0 20px;
+}
+
+.form-field:checked{
+    border-style: none;
+    background: none;
+    border-bottom: solid 2px #472d47;
+}
+
+.form:nth-child(3){
+    flex: 0 1 100%;
+}
+
+
+.form-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    padding: 20px 0;
+}
+
+.form-button-item{
+    background-color: #472d47;
+    color: white;
+    width: 100px;
+    margin: 5px;
+}
+
+/*footer*/
+
+.footer-contacts-title{
+    display:flex;
+    justify-content: center;
+}
+
+.footer-contacts-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-contacts-item {
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-text{
+    display: flex;
+    color: gray;
+    justify-content: center;
+}
